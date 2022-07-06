@@ -1,0 +1,109 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin:auto;
+    width: 800px;
+    background-color: #0e2c40;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.titulo {
+    padding: 15px;
+    text-align:right;
+    border: 10px;
+    border-style:groove;
+    background-image: url(./Img/Logo.png);
+    background-position: 20px;
+    background-size: 70px;
+    background-repeat: no-repeat;
+    text-shadow: 5px 10px 10px #0e2c40;
+}
+
+.barra-menu {
+    max-height: 500px;
+    background-color: #1a4a5a;
+    color: aliceblue;
+}
+ 
+.menu {
+    background-color: #148d8d;
+    text-align: end;
+    border: 10px;
+    border-style: outset;
+}
+
+.menu li {
+    display:inline-block;
+    padding: 5px;
+    margin: 10px;
+    border-radius: 10px;
+
+}
+
+.menu li a {
+    color: black;
+    text-decoration: none;
+}
+
+.menu li:hover {
+    background-color: #0e2c40;
+}
+
+.menu li a:hover {
+    color:aliceblue;
+}
+
+aside {
+    display: block;
+    float: right;
+    width: 30%;
+    height: 1328px;
+    background-color: #Efbc75;
+}
+
+
+.tips li {
+    list-style: circle;
+    padding: 10px;
+    margin-left: 50px;
+}
+
+.tips li a{
+    text-decoration: none;
+    color: black;
+}
+
+
+article {
+    background-color: #c1e1a7;
+    width: 70%;
+    display: block;
+    float: left;
+}
+
+.tips-salud {
+    padding: 10px;
+}
+
+.tips-salud h2 {
+    text-align: center;
+    text-decoration: underline;
+}
+
+.tips-salud li {
+    list-style: none;
+    padding: 10px;
+    margin-left: 50px;
+}
+
+footer {
+    width: 100%;
+    display: block;
+    float: left;
+    background-color: #1a4a5a;
+    color: aliceblue;
+}
+
